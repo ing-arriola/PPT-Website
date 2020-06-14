@@ -42,3 +42,39 @@ body{
     text-align: center;
     padding: 0 4rem;
 }
+
+.page a{
+    text-decoration: none;
+}
+
+.page h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin: 1rem;
+}
+
+.page p{
+    font-size: 1.3rem;
+}
+
+.btn{
+    display: block;
+    padding: 1rem 2rem;
+    background: #f4f4f4;
+    color: #333;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn-dark{
+    background: #333;
+    color: #fff;
+}
+
+.btn-dark:hover{
+    background: #fff;
+    color: #333;
+}
